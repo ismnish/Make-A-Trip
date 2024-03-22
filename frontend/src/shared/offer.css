@@ -1,0 +1,17 @@
+.offer{
+    padding: .5rem 1rem;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 50px;
+    background-color:var(--heading-color);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.offer img{
+    width: 400px;
+    height: 310px;
+    
+}

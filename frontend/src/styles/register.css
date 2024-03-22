@@ -1,0 +1,40 @@
+.input-container {
+    position: relative;
+  }
+  
+  .input-container input {
+    padding-right: 30px; /* Space for the error icon */
+  }
+  
+  .error-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .error-message {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    color: red;
+    font-size: 12px;
+    display: none; /* Hide the error message by default */
+  }
+  
+  .user-icon {
+    position: relative;
+  }
+  
+  .user-icon:hover .error-message {
+    display: block; /* Show the error message on hover */
+  }
+  
+  /* Adjust these styles based on your preferences */
+  .error-icon:hover {
+    color: darkred; /* Change the color on hover */
+  }
+  
